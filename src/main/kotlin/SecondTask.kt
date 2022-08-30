@@ -2,7 +2,7 @@ fun main(args: Array<String>) {
 
 
 //    First Problem
-    println(getListLength(listOf("Maze", "More", "Mr.")))
+    getFirstStringMatch(listOf("Maze", "Mr.", "More"))
 //    Second Problem
     getTheDefaultORMatch(listOf("Mr.", "Maze", "More"))
 //    Third Problem
@@ -26,7 +26,7 @@ Hint: ["Maze", "Mr.", "More"] will return "Mr.".
 fun getFirstStringMatch(list: List<String>) {
     for (text in list) {
         if (text.startsWith("M")) {
-            if (text.startsWith("r")) {
+            if (text.contains("r")) {
                 println(text)
                 break
             }
