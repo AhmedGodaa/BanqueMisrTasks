@@ -124,8 +124,11 @@ fun checkAllItemsMatchCount(list: List<String>, count: Int) {
  * Hint: ["a", "Ma", "M"] will return ["a"]
  */
 fun getItemBeforeCondition(list: List<String>) {
+    var _list = mutableListOf<String>()
+
     var counter = -1
     for (text in list) {
+
         counter++
         if (text.startsWith("M")) {
             if (text.contains("a")) {
