@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonMarginStart">15dp</dimen>
+    <dimen name="_2Margin">2dp</dimen>
+    <dimen name="_25ButtonMargin">25dp</dimen>
+    <dimen name="_45ButtonHeight">45dp</dimen>
+    <dimen name="_LogoHeight">200dp</dimen>
+    <dimen name="logoMarginTop">80dp</dimen>
+    <dimen name="editTextMargin">45dp</dimen>
+    <dimen name="editTextHeight">60dp</dimen>
+    <dimen name="textEditTextSize">15sp</dimen>
+    <dimen name="buttonSignInMarginTop">17dp</dimen>
+    <dimen name="buttonSignInMarginEnd">70dp</dimen>
+    <dimen name="buttonSigninHeight">50dp</dimen>
+    <dimen name="haveAccountContainerMarginTop">30dp</dimen>
+    <dimen name="haveAccountMarginEnd">10dp</dimen>
+    <dimen name="textOrMarginTop">20dp</dimen>
+    <dimen name="textOrSize">15sp</dimen>
+    <dimen name="dividerWidth">100dp</dimen>
+    <dimen name="dividerHeight">1dp</dimen>
+    <dimen name="dividerMargin">10dp</dimen>
+    <dimen name="textSocialNetworkMarginTop">10dp</dimen>
+    <dimen name="buttonSocialHeight">40dp</dimen>
+    <dimen name="buttonSocialPaddingStart">15dp</dimen>
+    <dimen name="buttonSocialPaddingEnd">1dp</dimen>
+    <dimen name="buttonSocialMarginEnd">25dp</dimen>
+    <dimen name="buttonSocialMarginStart">10dp</dimen>
+</resources>
