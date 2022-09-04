@@ -61,7 +61,8 @@
         app:layout_constraintTop_toBottomOf="@id/inputEmail" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignIn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonSigninHeight"
@@ -69,18 +70,16 @@
         android:layout_marginTop="@dimen/buttonSignInMarginTop"
         android:layout_marginEnd="@dimen/buttonSignInMarginEnd"
         android:background="@drawable/shape_button_one"
-        android:drawableStart="@drawable/ic_lock"
-        android:drawablePadding="10dp"
-        android:drawableTint="@color/white"
         android:gravity="center"
         android:text="@string/sign_in"
         android:textAllCaps="false"
         android:textColor="@color/white"
         app:backgroundTint="@color/blue"
+        app:icon="@drawable/ic_lock"
+        app:iconGravity="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/inputPassword" />
-
     <LinearLayout
         android:id="@+id/containerSignUp"
         android:layout_width="wrap_content"
