@@ -9,7 +9,7 @@ import com.banquemisr.fragmentrecyclerviewtask.databinding.FragmentDataBinding
 import com.banquemisr.fragmentrecyclerviewtask.utils.Constants
 
 
-class FragmentData : Fragment() {
+class DetailsFragment : Fragment() {
 
     lateinit var binding: FragmentDataBinding
 

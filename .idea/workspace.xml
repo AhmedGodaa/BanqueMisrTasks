@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c3a8ff7-b3d5-4700-849e-6955b888338a" name="Changes" comment="Add Registration Task">
+    <list default="true" id="1c3a8ff7-b3d5-4700-849e-6955b888338a" name="Changes" comment="Add FragmentRecyclerView Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistrationTask/app/src/main/res/layout/activity_signin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RegistrationTask/app/src/main/res/layout/activity_signin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662285902037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="solve signin button icon alignment">
+      <created>1662298438097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662298438097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add RecyclerView Task">
+      <created>1662376833923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662376833923</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add FragmentRecyclerView Task">
+      <created>1662396399825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662396399825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,10 +80,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Registration Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Registration Task" />
+    <MESSAGE value="solve signin button icon alignment" />
+    <MESSAGE value="Add RecyclerView Task" />
+    <MESSAGE value="Add FragmentRecyclerView Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FragmentRecyclerView Task" />
   </component>
 </project>

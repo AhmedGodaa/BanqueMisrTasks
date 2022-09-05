@@ -9,19 +9,19 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.banquemisr.fragmentrecyclerviewtask.models.User
 import com.banquemisr.fragmentrecyclerviewtask.R
 import com.banquemisr.fragmentrecyclerviewtask.adapters.UserAdapter
+import com.banquemisr.fragmentrecyclerviewtask.databinding.FragmentUserBinding
 import com.banquemisr.fragmentrecyclerviewtask.listeners.UserListener
-import com.banquemisr.fragmentrecyclerviewtask.databinding.FragmentRecyclerViewBinding
 import com.banquemisr.fragmentrecyclerviewtask.utils.Constants
 
-class RecyclerViewFragment : Fragment(), UserListener {
-    lateinit var binding: FragmentRecyclerViewBinding
+class UserFragment : Fragment(), UserListener {
+    lateinit var binding: FragmentUserBinding
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentRecyclerViewBinding.inflate(layoutInflater)
+        binding = FragmentUserBinding.inflate(layoutInflater)
         callRecyclerView()
 
         return binding.root
@@ -68,7 +68,7 @@ class RecyclerViewFragment : Fragment(), UserListener {
 
 
     override fun onClick(user: User, position: Int) {
-        val dataFragment = FragmentData()
+        val dataFragment = DetailsFragment()
 
         val bundle = Bundle()
         bundle.putString(Constants.NAME, user.name)
